@@ -23,7 +23,7 @@ const List = ()=>{
   const [max,setMaxPrice] =useState(undefined);
 
 
- const  {data,loading,error,reFetch} = useFetch(`/hotel?city=${destination}&min=${min|| 0}&max=${max|| 999}`);
+ const  {data,loading,error,reFetch} = useFetch(`https://bookingbackend-m7ip.onrender.com/hotel?city=${destination}&min=${min|| 0}&max=${max|| 999}`);
   
  const searchHotel = () => {
     reFetch();
