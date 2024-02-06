@@ -3,7 +3,7 @@ import useFetch from "../../Hooks/useFetch";
 const Featuredplaces =()=> {
 
     
-    const {data,loading,error} = useFetch("/hotel/countByType");
+    const {data,loading,error} = useFetch("https://bookingbackend-m7ip.onrender.com/hotel/countByType");
     const images =[
         "https://q-xx.bstatic.com/xdata/images/xphoto/263x210/57584488.jpeg?k=d8d4706fc72ee789d870eb6b05c0e546fd4ad85d72a3af3e30fb80ca72f0ba57&o=",
         "https://r-xx.bstatic.com/xdata/images/xphoto/263x210/119467716.jpeg?k=63b69100225782d08fbd4d0205bf949c0be894ab946a0366edb8ad48e9c0ef46&o=",
