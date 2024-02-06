@@ -3,7 +3,7 @@ import useFetch from "../../Hooks/useFetch";
 
 const FeaturedPL = () => {
 
-    const {data,loading,error} = useFetch("/hotel?featured=true");
+    const {data,loading,error} = useFetch("https://bookingbackend-m7ip.onrender.com/hotel?featured=true");
 
     return <div className="featuredPL">
 
