@@ -7,7 +7,7 @@ import { SearchContext } from "../Context/SearchContext";
 import "./reserve.css";
 import axios from "axios";
 const Reserve = ({setOpen,hotelId}) => {
-    const {data} =useFetch(`/hotel/getrooms/${hotelId}`);
+    const {data} =useFetch(`https://bookingbackend-m7ip.onrender.com/hotel/getrooms/${hotelId}`);
 const [selectedRoom,setSelectedRoom] =useState([]);
 
 const {date} = useContext(SearchContext);
