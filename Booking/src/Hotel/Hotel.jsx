@@ -46,7 +46,7 @@ const handleImage  = (destination) => {
 const location =useLocation();
 const id=location.pathname.split("/")[2];
 
-const  {data,loading,error,reFetch} = useFetch(`/hotel/find/${id}`);
+const  {data,loading,error,reFetch} = useFetch(`https://bookingbackend-m7ip.onrender.com/hotel/find/${id}`);
 const {user} =useContext(AuthContext);
 
 
