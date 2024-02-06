@@ -1,0 +1,39 @@
+.featuredPL{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.featuredPLItem {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+.featuredPLImg{
+   
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.featuredPLTitle{
+  font-weight: bold;
+}
+.featuredPLrate {
+    font-weight: 200;
+    font-size: 14px;
+}
+.featuredPLratings>button {
+    background-color: blue;
+    color: white;
+    padding: 3px;
+    margin-right: 8px;
+    cursor: pointer;
+    border-radius: 1px;
+    border: none;
+    
+}
+.featuredPLratings>span{
+    font-weight: 400;
+}

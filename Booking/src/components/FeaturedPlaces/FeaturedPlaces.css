@@ -1,0 +1,19 @@
+.featuredplaces {
+    width: 100%;
+    max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.featuredPlaceImg{
+width: 100%;
+object-fit: cover;
+border-radius: 5px;
+}
+.featuredPlaceTitle>h1 {
+    font-size: 18px;
+}
+.featuredPlaceTitle>h2 {
+    font-size: 14px;
+}

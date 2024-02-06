@@ -1,0 +1,104 @@
+.lsFeature {
+    border: 1px solid lightgray;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap:5px;
+    width: 100%;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.listImage {
+    
+height: 200px;
+    width: 200px;
+
+}
+.lsDetails {
+    padding: 5px;
+  display: flex;
+  flex-direction: column;
+  flex:2;
+
+}
+.lstitle {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.lsdist {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.lstaxi{
+    font-size: 13px;
+    color: white;
+    background-color: green;
+    width: max-content;
+    margin-bottom: 5px;
+    padding: 4px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.lsdesc {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.desc {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.cancellation {
+    font-size: 12px;
+    font-weight: 300px;
+    margin-bottom: 5px;
+    color: green;
+}
+.later {
+    font-size: 12px;
+}
+.lsDescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+
+}
+.excelllent{
+    display: flex;
+    justify-content: space-between;
+}
+.excelllent>span {
+    font-size: 14px;
+}
+.excelllent>button{
+    color: white;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+
+}
+.avail {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    width: 100%;
+    text-align: right;  
+}
+.dollar{
+    font-size: 18px;
+}
+.tax {
+    font-size: 12px;
+}
+.availbtn {
+    background-color: blue;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
